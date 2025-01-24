@@ -1,0 +1,43 @@
+.issue-table-container {
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+
+.issue-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.issue-table th,
+.issue-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.issue-table th {
+  background-color: #f5f5f5;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-badge.open {
+  background-color: #ffd7d5;
+  color: #d32f2f;
+}
+
+.status-badge.in-progress {
+  background-color: #fff4e5;
+  color: #ed6c02;
+}
+
+.status-badge.done {
+  background-color: #d8f5d1;
+  color: #2e7d32;
+}
